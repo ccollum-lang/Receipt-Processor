@@ -9,5 +9,5 @@ To build the image, use the following command:
 ## Running the Container
 
 Create a container from the image using:
-`docker run -d -p 5000:5000 python-docker`
+`docker run -d -p 8000:5000 python-docker`
 
