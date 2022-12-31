@@ -10,7 +10,7 @@ app.debug = True
 receipt_dict = {}
 
 
-@app.route("/reciepts/process", methods=["POST"])
+@app.route("/receipts/process", methods=["POST"])
 def processReceipts():
     data = request.get_json()
     id = str(uuid.uuid4())
